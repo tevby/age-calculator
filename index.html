@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./age-calculator-app-main/assets/images/favicon-32x32.png">
+</head>
+<body>
+    <div class="main">
+        <div class="parent">
+            <div class="top-container">
+                <div class="day-field">
+                    <label for="Day">DAY</label>
+                    <input type="number" placeholder="DD" id="dayinp">
+                    <small class="info-day"></small>
+                </div>
+                <div class="month-field">
+                    <label for="Month">MONTH</label>
+                    <input type="number" name="" id="monthinp" placeholder="MM">
+                    <small class="info-month"></small>
+                </div>
+                <div class="year-field">
+                    <label for="Year">YEAR</label>
+                    <input type="number" placeholder="YYYY" id="yearinp">
+                    <small class="info-year"></small>
+                </div>
+            </div>
+            <div class="bottom-container">
+                <div class="button-container">
+                    <div class="hr">
+                        <div class="hr-line"></div>
+                    </div>
+                    <button class="enter"><img src="./age-calculator-app-main/assets/images/icon-arrow.svg" alt=""></button>
+                </div>
+                <div class="answer-container">
+                    <h1 class="year-output"><span class="yearotp">--</span>years</h1>
+                    <h1 class="month-output"><span class="monthotp">--</span>months</h1>
+                    <h1 class="day-output"><span class="dayotp">--</span>days</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./style.js"></script>
+</body>
+</html>
